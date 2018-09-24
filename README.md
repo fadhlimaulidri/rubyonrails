@@ -71,9 +71,9 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
     $ cat ~/.ssh/id_rsa.pub # copy the content to github
     ```
 
-## Setup Mothership
+## Setup
 
-1. Clone BL
+1. Clone
 
     ```
     $ git clone https://github.com/fadhlimaulidri/rubyonrails.git
