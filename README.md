@@ -44,7 +44,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 ## Setup Git
 
-1. Register to Github.com. Ask for BL repo access to @xinuc or @achmadzaki
+1. Register to Github.com
 
 2. Install Git
 
