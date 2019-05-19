@@ -76,14 +76,14 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 1. Clone
 
     ```
-    $ git clone https://gitlab.com/fadhlimaulidri/yukbareng.git
-    $ cd yukbareng
+    $ git clone https://gitlab.com/fadhlimaulidri/syafarina.git
+    $ cd syafarina
     ```
 
 2. Create Gemset
 
     ```
-    $ rvm 2.5.1@ayobareng --create
+    $ rvm 2.5.1@syafarina --create
     ```
 
 3. Install Bundler
