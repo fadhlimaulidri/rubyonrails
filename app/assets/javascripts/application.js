@@ -14,3 +14,27 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+//= require jquery
+//= require jquery_ujs
+//= require popper
+//= require material/blur-area
+//= require material/bootstrap
+//= require material/bs-datepicker
+//= require material/countdown
+//= require material/custom
+//= require material/fitvid
+//= require material/fotorama
+//= require material/gmap
+//= require material/icheck
+//= require material/ion-range-slider
+//= require material/jquery
+//= require material/magnific-popup
+//= require material/moment
+//= require material/owl-carousel
+//= require material/quantity-selector
+//= require material/smooth-scroll
+//= require material/sticky-kit
+//= require material/typeahead
+//= require material/window-scroll-action
+//= require material/youtube-bg

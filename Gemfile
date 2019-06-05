@@ -70,3 +70,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rubocop', require: false
 gem 'msgpack', '~> 1.2', '>= 1.2.6'
+
+# CSS
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
+
+# JS
+gem "jquery-rails"
+gem 'popper_js', '~> 1.12.9'

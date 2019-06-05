@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+*= require font-awesome
+*= require material/bootstrap.css
+*= require material/font-awesome.css
+*= require material/lineicons.css
+*= require material/mystyles.css
+*= require material/styles.css
+*= require material/weather-icons.css
