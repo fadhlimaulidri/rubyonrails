@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-*= require font-awesome
+/* *= require font-awesome */
 *= require material/bootstrap.css
 *= require material/font-awesome.css
 *= require material/lineicons.css
