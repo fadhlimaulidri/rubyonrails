@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-user = User.create(
-  {username: 'fadhlimaulidri', name: 'Fadhli Maulidri', provider: 'github'}
-)
+User.create([
+  {username: 'fadhlimaulidri', first_name: 'Fadhli', last_name: 'Maulidri', provider: 'github'}
+])
 
 Trip.create([
     {user_id: 1, dep: 'Padang', arr: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', user_transport_id: 1, fare: 30000},
