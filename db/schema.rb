@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_07_234314) do
+ActiveRecord::Schema.define(version: 2019_06_08_020757) do
 
   create_table "access_tokens", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "token", null: false
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 2019_06_07_234314) do
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "username", null: false
+    t.string "username"
     t.string "first_name"
     t.string "url"
     t.string "avatar_url"

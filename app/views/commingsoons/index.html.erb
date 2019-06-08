@@ -45,14 +45,16 @@
                 <div class="row">
                   <div class="col-md-8 col-md-offset-2">
                     <div class="theme-coming-soon-form">
+                      <%= form_with scope: :commingsoon, url: commingsoons_path, local: true do |form| %>
                       <div class="row row-no-gutter">
                         <div class="col-md-8">
-                          <input class="form-control" placeholder="Apa email anda? kami ingatkan"/>
+                          <%= form.text_field :email, :type => 'email',  :class => 'form-control', :placeholder => 'Apa email anda? kami ingatkan' %>
                         </div>
                         <div class="col-md-4">
-                          <a class="btn btn-primary-inverse btn-block theme-coming-soon-form-btn" href="#">Kirim</a>
+                          <%= form.submit :class => "btn btn-primary-inverse btn-block theme-coming-soon-form-btn", :value => "Kirim" %>
                         </div>
                       </div>
+                      <% end %>
                     </div>
                   </div>
                 </div>
@@ -73,7 +75,7 @@
         </li>
       </ul>
       <a class="theme-abs-logo" href="index.html">
-        <img src="<%= image_path('img/logo.png') %>" alt="Image Alternative text" title="Image Title"/>
+
       </a>
     </div>
     <%= javascript_include_tag 'material/jquery' %>

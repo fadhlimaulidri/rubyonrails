@@ -9,4 +9,19 @@ class CommingsoonsController < ApplicationController
       redirect_to root_path
     end
   end
+
+  def create
+    # render plain: params[:article].inspect
+    # @user = User.new(params[:commingsoon])
+    @user = User.new(user_params)
+    binding.pry
+    @user.save!
+    redirect_to commingsoons_path
+  end
+
+  private
+
+  def user_params
+    params.require(:commingsoon).permit(:email, :text)
+  end
 end
