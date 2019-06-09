@@ -19,10 +19,11 @@
 
     <%= render partial: 'partials/footer' %>
 
-    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'material/jquery' %>
     <%= javascript_include_tag 'material/moment' %>
-    <%= javascript_include_tag 'bootstrap' %>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYeBBmgAkyAN_QKjAVOiP_kWZ_eQdadeI&callback=initMap&libraries=places"></script>
+    <%= javascript_include_tag 'material/bootstrap' %>
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDYeBBmgAkyAN_QKjAVOiP_kWZ_eQdadeI&callback=initMap&libraries=places', async: true, defer:true %>
+    <!-- <script async defer src="" ></script> -->
     <%= javascript_include_tag 'material/owl-carousel' %>
     <%= javascript_include_tag 'material/blur-area' %>
     <%= javascript_include_tag 'material/icheck' %>
