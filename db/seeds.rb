@@ -11,9 +11,9 @@ User.create([
 ])
 
 Trip.create([
-    {user_id: 1, dep: 'Padang', arr: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', user_transport_id: 1, fare: 30000},
-    {user_id: 1, dep: 'Pekanbaru', arr: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', user_transport_id: 1, fare: 50000},
-    {user_id: 1, dep: 'Payakumbuh', arr: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', user_transport_id: 1, fare: 20000}
+    {origin: 'Padang', destination: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', transport_id: 1, fare: 30000},
+    {origin: 'Pekanbaru', destination: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', transport_id: 1, fare: 50000},
+    {origin: 'Payakumbuh', destination: 'Bukittinggi', dep_time: '2019-09-10 00:00:00.000000000 +0000', transport_id: 1, fare: 20000}
 ])
 
 ToggleFeature.create([
