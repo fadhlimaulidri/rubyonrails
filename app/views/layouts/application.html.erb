@@ -2,15 +2,45 @@
 <html>
   <head>
     <meta name="google-site-verification" content="qEbl0WJraHRhqVgIEhKvDzR_wV3eGRhOJ8O6HN5xkC4" />
-    <title>Uwaistv</title>
+    <title>Situs pembelian tiket travel | Syafarina</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+    <%= render partial: 'partials/navbar' %>
+
     <%= yield %>
+
+    <%= render partial: 'partials/footer' %>
+
+    <%= javascript_include_tag 'material/jquery' %>
+    <%= javascript_include_tag 'material/moment' %>
+    <%= javascript_include_tag 'material/bootstrap' %>
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDYeBBmgAkyAN_QKjAVOiP_kWZ_eQdadeI&callback=initMap&libraries=places', async: true, defer:true %>
+    <!-- <script async defer src="" ></script> -->
+    <%= javascript_include_tag 'material/owl-carousel' %>
+    <%= javascript_include_tag 'material/blur-area' %>
+    <%= javascript_include_tag 'material/icheck' %>
+    <%= javascript_include_tag 'material/gmap' %>
+    <%= javascript_include_tag 'material/magnific-popup' %>
+    <%= javascript_include_tag 'material/ion-range-slider' %>
+    <%= javascript_include_tag 'material/sticky-kit' %>
+    <%= javascript_include_tag 'material/smooth-scroll' %>
+    <%= javascript_include_tag 'material/fotorama' %>
+    <%= javascript_include_tag 'material/bs-datepicker' %>
+    <%= javascript_include_tag 'material/typeahead' %>
+    <%= javascript_include_tag 'material/quantity-selector' %>
+    <%= javascript_include_tag 'material/countdown' %>
+    <%= javascript_include_tag 'material/window-scroll-action' %>
+    <%= javascript_include_tag 'material/fitvid' %>
+    <%= javascript_include_tag 'material/youtube-bg' %>
+    <%= javascript_include_tag 'material/custom' %>
   </body>
+
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Situs penjualan tiket travel | Syafarina</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <div class="theme-hero-area _h-desk-100vh">
+      <div class="theme-hero-area-bg-wrap">
+        <div class="theme-hero-area-bg" style="background-image:url(./img/1500x800.png);"></div>
+        <div class="theme-hero-area-mask theme-hero-area-mask-strong"></div>
+        <div class="theme-hero-area-inner-shadow"></div>
+      </div>
+      <div class="theme-hero-area-body _pos-desk-v-c _w-f _pv-mob-100">
+        <div class="container">
+          <div class="theme-coming-soon">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="theme-coming-soon-header">
+                  <h1 class="theme-coming-soon-title">Selamat datang di
+                    <b>Syafarina</b>
+                  </h1>
+                  <p class="theme-coming-soon-subtitle">Situs pemesanan tiket travel</p>
+                </div>
+                <div class="_mob-h">
+                  <div class="countdown theme-coming-soon-countdown"> </div>
+                </div>
+                <div class="_desk-h _ta-c _mt-20">
+                  <div class="theme-hero-text">
+                    <div class="theme-hero-text-header">
+                      <h2 class="theme-hero-text-title">Launch in
+                        <br/>
+                        <b>125 Days</b>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="theme-coming-soon-form">
+                      <%= form_with scope: :commingsoon, url: commingsoons_path, local: true do |form| %>
+                      <div class="row row-no-gutter">
+                        <div class="col-md-8">
+                          <%= form.text_field :email, :type => 'email',  :class => 'form-control', :placeholder => 'Apa email anda? kami ingatkan' %>
+                        </div>
+                        <div class="col-md-4">
+                          <%= form.submit :class => "btn btn-primary-inverse btn-block theme-coming-soon-form-btn", :value => "Kirim" %>
+                        </div>
+                      </div>
+                      <% end %>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="theme-social-list">
+        <li>
+          <a class="fa fa-facebook" href="https://www.facebook.com/syafarinacom"></a>
+        </li>
+        <li>
+          <a class="fa fa-twitter" href="https://twitter.com/syafarinacom"></a>
+        </li>
+        <li>
+          <a class="fa fa-instagram" href="https://instagram.com/syafarinacom"></a>
+        </li>
+      </ul>
+      <a class="theme-abs-logo" href="index.html">
+
+      </a>
+    </div>
+    <%= javascript_include_tag 'material/jquery' %>
+    <%= javascript_include_tag 'material/moment' %>
+    <%= javascript_include_tag 'material/bootstrap' %>
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDYeBBmgAkyAN_QKjAVOiP_kWZ_eQdadeI&callback=initMap&libraries=places', async: true, defer:true %>
+    <!-- <script async defer src="" ></script> -->
+    <%= javascript_include_tag 'material/owl-carousel' %>
+    <%= javascript_include_tag 'material/blur-area' %>
+    <%= javascript_include_tag 'material/icheck' %>
+    <%= javascript_include_tag 'material/gmap' %>
+    <%= javascript_include_tag 'material/magnific-popup' %>
+    <%= javascript_include_tag 'material/ion-range-slider' %>
+    <%= javascript_include_tag 'material/sticky-kit' %>
+    <%= javascript_include_tag 'material/smooth-scroll' %>
+    <%= javascript_include_tag 'material/fotorama' %>
+    <%= javascript_include_tag 'material/bs-datepicker' %>
+    <%= javascript_include_tag 'material/typeahead' %>
+    <%= javascript_include_tag 'material/quantity-selector' %>
+    <%= javascript_include_tag 'material/countdown' %>
+    <%= javascript_include_tag 'material/window-scroll-action' %>
+    <%= javascript_include_tag 'material/fitvid' %>
+    <%= javascript_include_tag 'material/youtube-bg' %>
+    <%= javascript_include_tag 'material/custom' %>
+  </body>
+</html>

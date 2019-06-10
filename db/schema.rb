@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_14_101447) do
+ActiveRecord::Schema.define(version: 2019_06_09_010237) do
 
   create_table "access_tokens", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "token", null: false
@@ -33,25 +33,57 @@ ActiveRecord::Schema.define(version: 2019_02_14_101447) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "trips", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "orders", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "user_id"
-    t.string "dep"
-    t.string "arr"
+    t.string "payment_method"
+    t.datetime "approved"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "seats", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "seat_number"
+    t.integer "user_id"
+    t.integer "trip_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "toggle_features", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "feature_name"
+    t.boolean "state"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "trips", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "origin"
+    t.string "destination"
     t.datetime "dep_time"
     t.string "user_transport_id"
     t.integer "fare"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "date"
+    t.integer "transport_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "login", null: false
-    t.string "name"
+    t.string "username"
+    t.string "first_name"
     t.string "url"
     t.string "avatar_url"
     t.string "provider"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "email"
+    t.string "last_name"
+    t.string "phone_number"
+    t.string "city"
+    t.string "district"
+    t.string "village"
+    t.string "address"
+    t.boolean "state"
   end
 
   add_foreign_key "access_tokens", "users"
