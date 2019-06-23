@@ -78,5 +78,3 @@ gem 'font-awesome-rails'
 # JS
 gem "jquery-rails"
 gem 'popper_js', '~> 1.12.9'
-
-gem 'newrelic_rpm'
