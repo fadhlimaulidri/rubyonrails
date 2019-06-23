@@ -241,3 +241,22 @@
 [2019-06-12 05:31:36 +0700 Fadhlis-MBP (1406)] INFO : Reporting to: https://rpm.newrelic.com/accounts/2371816/applications/165827068
 [2019-06-12 06:40:10 +0700 Fadhlis-MBP (1406)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
 [2019-06-12 06:40:10 +0700 Fadhlis-MBP (1406)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-001.newrelic.com:443 after 0.006697 seconds: Failed to open TCP connection to collector-001.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Starting the New Relic agent version 6.4.0.356 in "development" environment.
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Reading configuration from config/newrelic.yml (/Users/fadhlimaulidri/syafarina)
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Environment: development
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : No known dispatcher detected.
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Application: Syafarina Web (Development)
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing ActiveStorage 5 instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing notifications based Active Record instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing Net instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing ActiveJob instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing notifications based Action Controller instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing notification based Action View instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Installing notifications based Action Cable instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Finished instrumentation
+[2019-06-23 07:50:55 +0700 Fadhlis-MBP (57763)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-06-23 07:51:00 +0700 Fadhlis-MBP (57763)] INFO : Starting Agent shutdown
