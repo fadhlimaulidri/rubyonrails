@@ -25,8 +25,7 @@
 
 ## Setup Git
 
-1. Register to [Github.com](http://github.com/). Please, ask for Bukalapak repositories access to [Xinuc](https://github.com/xinuc) or [Hadi Saloko](https://github.com/hadisaloko)
-
+1. Register to Github.com
 2. Install Git
 
     ```sh
@@ -105,4 +104,4 @@
     
 ## Run Mothership Services
 
-Access it at `http://www.local.host:5000`
+Access it at `http://localhost:3000`
