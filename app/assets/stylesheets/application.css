@@ -13,10 +13,10 @@
  *= require_tree .
  *= require_self
  */
-/* *= require font-awesome */
+*= require font-awesome.css
 *= require bootstrap.css
 *= require font-awesome.css
 *= require lineicons.css
 *= require mystyles.css
 *= require styles.css
-/* *= require weather-icons.css */
+*= require weather-icons.css
