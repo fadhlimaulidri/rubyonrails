@@ -1,6 +1,7 @@
 log/*
 tmp/cache/
 tmp/pids/
+Gemfile.lock
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
