@@ -2364,7 +2364,7 @@ if (typeof jQuery === 'undefined') {
 }
 
 +function ($) {
-  'use strict';
+  
   var version = $.fn.jquery.split(' ')[0].split('.')
   if ((version[0] < 2 && version[1] < 9) || (version[0] == 1 && version[1] == 9 && version[2] < 1) || (version[0] > 3)) {
     throw new Error('Bootstrap\'s JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4')
@@ -2381,7 +2381,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
   // ============================================================
@@ -2441,7 +2441,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // ALERT CLASS DEFINITION
   // ======================
@@ -2536,7 +2536,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // BUTTON PUBLIC CLASS DEFINITION
   // ==============================
@@ -2662,7 +2662,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // CAROUSEL CLASS DEFINITION
   // =========================
@@ -2901,7 +2901,7 @@ if (typeof jQuery === 'undefined') {
 /* jshint latedef: false */
 
 +function ($) {
-  'use strict';
+  
 
   // COLLAPSE PUBLIC CLASS DEFINITION
   // ================================
@@ -3113,7 +3113,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // DROPDOWN CLASS DEFINITION
   // =========================
@@ -3279,7 +3279,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // MODAL CLASS DEFINITION
   // ======================
@@ -3620,7 +3620,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // TOOLTIP PUBLIC CLASS DEFINITION
   // ===============================
@@ -4140,7 +4140,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // POPOVER PUBLIC CLASS DEFINITION
   // ===============================
@@ -4249,7 +4249,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // SCROLLSPY CLASS DEFINITION
   // ==========================
@@ -4422,7 +4422,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // TAB CLASS DEFINITION
   // ====================
@@ -4578,7 +4578,7 @@ if (typeof jQuery === 'undefined') {
 
 
 +function ($) {
-  'use strict';
+  
 
   // AFFIX CLASS DEFINITION
   // ======================
@@ -4982,7 +4982,7 @@ return d.keepInvalid=a,l},l.datepickerInput=function(a){if(0===arguments.length)
         });
     };
 });
-'use strict';
+
 
 var mobileViewport = 992;
 var isSafari = navigator.userAgent.indexOf("Safari") > -1;
@@ -5382,7 +5382,7 @@ $('.mobile-picker').each(function(i, item){
 
 ;(function( $ ){
 
-  'use strict';
+  
 
   $.fn.fitVids = function( options ) {
     var settings = {
@@ -16745,7 +16745,7 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
-	'use strict';
+	
 
 	/**
 	 * Creates the navigation plugin.
@@ -17128,7 +17128,7 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
-	'use strict';
+	
 
 	/**
 	 * Creates the hash plugin.
@@ -17444,7 +17444,7 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
 	}
 })(typeof global !== 'undefined' ? global : typeof window !== 'undefined' ? window : this, function (window) {
 
-	'use strict';
+	
 
 	//
 	// Default settings
@@ -18354,7 +18354,7 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
 
 (function (root, factory) {
 
-  'use strict';
+  
 
   // CommonJS module is defined
   if (typeof module !== 'undefined' && module.exports) {
@@ -18371,7 +18371,7 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
 
 }(this, function ($) {
 
-  'use strict';
+  
   // jshint laxcomma: true
 
 
@@ -30490,7 +30490,7 @@ return jQuery;
 
   // Cut down on the number of issues from people inadvertently including jquery_ujs twice
   // by detecting and raising an error when it happens.
-  'use strict';
+  
 
   if ( $.rails !== undefined ) {
     $.error('jquery-ujs has already been loaded!');
@@ -31060,7 +31060,7 @@ return jQuery;
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
 	(global.Popper = factory());
-}(this, (function () { 'use strict';
+}(this, (function () { 
 
 var isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';
 var longerTimeoutBrowsers = ['Edge', 'Trident', 'Firefox'];

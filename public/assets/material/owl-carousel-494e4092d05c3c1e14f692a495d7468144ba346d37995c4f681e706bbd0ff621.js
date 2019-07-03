@@ -2691,7 +2691,7 @@
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
-	'use strict';
+	
 
 	/**
 	 * Creates the navigation plugin.
@@ -3074,7 +3074,7 @@
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
-	'use strict';
+	
 
 	/**
 	 * Creates the hash plugin.

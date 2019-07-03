@@ -1,4 +1,4 @@
-'use strict';
+
 
 var mobileViewport = 992;
 var isSafari = navigator.userAgent.indexOf("Safari") > -1;

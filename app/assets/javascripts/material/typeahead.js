@@ -22,7 +22,7 @@
 
 (function (root, factory) {
 
-  'use strict';
+  
 
   // CommonJS module is defined
   if (typeof module !== 'undefined' && module.exports) {
@@ -39,7 +39,7 @@
 
 }(this, function ($) {
 
-  'use strict';
+  
   // jshint laxcomma: true
 
 
