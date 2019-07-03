@@ -17,15 +17,15 @@
     rvm requirements
     ```
 
-2. Ruby 2.3.0
+2. Ruby 2.6.3
 
     ```sh
-    rvm install 2.3.0
+    rvm install 2.6.3
     ```
 
 ## Setup Git
 
-1. Register to [Github.com](http://github.com/). Please, ask for Bukalapak repositories access to [Xinuc](https://github.com/xinuc) or [Hadi Saloko](https://github.com/hadisaloko)
+1. Register to [Gitlab.com](http://gitlab.com/). Please, ask for Syafarinna repositories access to [Fadhli](https://gitlab.com/fadhlimaulidri)
 
 2. Install Git
 
@@ -40,27 +40,13 @@
     git config --global user.email "your-github-email@example.com"
     ```
 
-4. Generate Public Key
-
-    ```sh
-    ssh-keygen # then, just press enter
-    ```
-
-5. [Add key to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-    ```sh
-    cat ~/.ssh/id_rsa.pub # copy the content to github
-    ```
-
 ## Setup Services
 
 1. Clone Repo
 
-    If you need full history of the repository, please remove `--depth 1`.
-
     ```sh
-    git clone github.com/fadhlimaulidri/rubyonrails.git
-    cd rubyonrails
+    git clone gitlab.com/fadhlimaulidri/syafarina.git
+    cd syafarina
     ```
 
 2. Install Mysql
@@ -72,10 +58,10 @@
 3. Create Gemset
 
     ```sh
-    rvm 2.5.1@rubyonrails --create
+    rvm 2.6.3@syafarina --create
     ```
 
-4. Install Bundler and Foreman
+4. Install Bundler
 
     ```
     gem install bundler
@@ -105,4 +91,4 @@
 
 ## Run Mothership Services
 
-Access it at `http://www.local.host:5000`
+Access it at `http://localhost:3000`
