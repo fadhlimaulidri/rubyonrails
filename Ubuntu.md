@@ -1,4 +1,4 @@
-# Installing Mothership
+# Installing
 
 *Old method:*
 
@@ -74,7 +74,7 @@
     rvm 2.5.1@rubyonrails --create
     ```
 
-4. Install Bundler and Foreman
+4. Install Bundler
 
     ```
     gem install bundler
@@ -102,6 +102,6 @@
     rake db:seed
     ```
     
-## Run Mothership Services
+## Run
 
 Access it at `http://localhost:3000`
